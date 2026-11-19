@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of a computer science student interested in cloud computing, software development and DevOps." />
+  <title>Your Name | Developer Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">YN<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="#contact">Let's connect <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT · ASPIRING DEVELOPER</p>
+        <h1>Building thoughtful<br><span>digital experiences.</span></h1>
+        <p class="hero-description">
+          Hi, I'm <strong>Your Name</strong>. I enjoy solving problems, learning new technologies
+          and turning ideas into useful, well-designed applications.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <i class="fa-solid fa-arrow-right"></i></a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span><i class="fa-solid fa-location-dot"></i> India</span>
+          <span><i class="fa-solid fa-code"></i> Development · Cloud · DevOps</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>hello-world.js</small></div>
+          <div class="code-lines">
+            <p><b>01</b> <span class="pink">const</span> developer = {</p>
+            <p><b>02</b> &nbsp; name: <span class="green">'Your Name'</span>,</p>
+            <p><b>03</b> &nbsp; curious: <span class="orange">true</span>,</p>
+            <p><b>04</b> &nbsp; learning: [</p>
+            <p><b>05</b> &nbsp;&nbsp; <span class="green">'Cloud'</span>, <span class="green">'DevOps'</span></p>
+            <p><b>06</b> &nbsp; ]</p>
+            <p><b>07</b> };</p>
+            <p><b>08</b> <span class="blue">console</span>.log(<span class="green">'Let's build!'</span>);</p>
+          </div>
+        </div>
+        <div class="floating-chip chip-one"><i class="fa-brands fa-aws"></i> AWS</div>
+        <div class="floating-chip chip-two"><i class="fa-brands fa-github"></i> GitHub</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Curious mind. <span>Practical builder.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead">
+          I'm a computer science student developing my skills in programming, web technologies
+          and cloud computing. I like understanding how things work and building projects that
+          help me learn by doing.
+        </p>
+        <div class="about-details">
+          <p>Currently exploring cloud infrastructure, deployment workflows and ways to create
+            reliable applications. I'm always open to learning, collaborating and taking on new challenges.</p>
+          <div class="skill-list">
+            <span>HTML & CSS</span><span>Java</span><span>Python</span>
+            <span>Git & GitHub</span><span>AWS basics</span><span>Problem solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">SELECTED WORK</p><h2>Projects I've <span>worked on.</span></h2></div>
+          <p class="section-note">A few examples of projects and learning experiments.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-icon purple"><i class="fa-solid fa-film"></i></div>
+            <p class="project-number">01 / WEB APPLICATION</p>
+            <h3>Cinema Finder</h3>
+            <p>A movie discovery concept that helps users explore cinema options through a clean interface and location-based features.</p>
+            <div class="tags"><span>HTML</span><span>JavaScript</span><span>Maps</span></div>
+            <a href="#contact" class="project-link">Ask me about it <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon blue-bg"><i class="fa-solid fa-heart-pulse"></i></div>
+            <p class="project-number">02 / PRODUCT CONCEPT</p>
+            <h3>Telewell</h3>
+            <p>A telehealth platform concept focused on making digital healthcare interactions feel simple, clear and approachable.</p>
+            <div class="tags"><span>UI/UX</span><span>Prototyping</span><span>Product</span></div>
+            <a href="#contact" class="project-link">Ask me about it <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon orange-bg"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+            <p class="project-number">03 / CLOUD & DEVOPS</p>
+            <h3>Cloud Portfolio</h3>
+            <p>A responsive portfolio deployed on Amazon S3 and delivered through CloudFront with HTTPS, caching and version control.</p>
+            <div class="tags"><span>AWS S3</span><span>CloudFront</span><span>GitHub</span></div>
+            <a href="#contact" class="project-link">Ask me about it <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">HAVE A PROJECT OR OPPORTUNITY?</p>
+        <h2>Let's make something<br><span>meaningful together.</span></h2>
+        <p>I'm happy to connect, learn and explore opportunities to collaborate.</p>
+        <a class="button button-light" href="mailto:your.email@example.com">Say hello <i class="fa-solid fa-paper-plane"></i></a>
+        <div class="social-links">
+          <a href="https://github.com/yourusername" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/yourusername/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:your.email@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">YN<span>.</span></a>
+      <p>© <span id="year">2026</span> Your Name. Built with curiosity and code.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

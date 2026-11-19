@@ -1,0 +1,1 @@
+Place any portfolio images or other static assets in this folder. The starter design currently uses CSS shapes and Font Awesome icons.
